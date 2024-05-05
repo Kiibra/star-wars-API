@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import NavIcon from '../../assets/starwars.png'
 
 // import reactLogo from '../../assets/react.svg'
 import './NavBar.css'
@@ -9,7 +10,9 @@ const NavBar = () => {
     <header>
       {/* <img className="logo" src={ reactLogo } alt="The React logo" /> */}
       <nav>
+      <Link to="/"><img className='nav-icon' src={NavIcon} alt="star wars image" /></Link>
         <Link to='/starships'>STAR WARS STARSHIPS</Link>
+        <Link to='/planets'>STAR WARS PLANETS</Link>
       </nav>
     </header>
   )
