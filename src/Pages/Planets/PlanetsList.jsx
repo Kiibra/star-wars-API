@@ -26,11 +26,13 @@ const PlanetsList = () => {
   return (
     <main className='planets-list'>
       <h2>Hii PLANETSSS</h2>
+      <div className="card-list">
       {planetsList.map((planet, idx) => 
-      <div className="planets-card" key={idx}>
-      <Link to={`/planets/${planet.idx}`}>{planet.name}</Link>
+      <div className="card" key={idx}>
+      <Link className='item' to={`/planets/${planet.idx}`}>{planet.name}</Link>
       </div>
       )}
+      </div>
     </main> 
   )
 }

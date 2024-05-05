@@ -15,3 +15,26 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+.card-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.card {
+  display: flex;
+  height: 10vh;
+  width:28vh;
+  color: rgb(215, 230, 14);
+}
+
+.item{
+  font-size: large;
+  background-color: rgb(70, 56, 39);
+  margin: 20px;
+  width: 29vh;
+}
