@@ -12,3 +12,8 @@ export async function getStarship(idx){
   console.log(res)
   return res.json()
 }
+
+export async function getAllPlanets(){
+  const res = await fetch(`${baseUrl}/planets`)
+  return res.json()
+} 
