@@ -7,7 +7,8 @@ import StarshipList from './Pages/StarshipList/StarshipList'
 import StarshipPage from './Pages/StarshipPage/StarshipPage'
 
 import './App.css'
-import PlanetsList from './Pages/Planets/PlanetsList'
+import PlanetList from './Pages/PlanetList/PlanetList'
+import PlanetPage from './Pages/PlanetPage/Planetpage'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
     <Routes>
       <Route path='/starships' element={<StarshipList />}/>
       <Route path='/starships/:idx' element={<StarshipPage />}/>
-      <Route path='/planets' element={<PlanetsList />}/>
+      <Route path='/planets' element={<PlanetList />}/>
+      <Route path='/Planets/:idx' element={<PlanetPage />}/>
     </Routes>
     </>
   )

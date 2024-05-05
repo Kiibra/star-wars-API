@@ -17,3 +17,9 @@ export async function getAllPlanets(){
   const res = await fetch(`${baseUrl}/planets`)
   return res.json()
 } 
+
+export async function getAPlanet(idx){
+  const res = await fetch(`${baseUrl}/planets/${idx}`)
+  console.log(res)
+  return res.json()
+}
