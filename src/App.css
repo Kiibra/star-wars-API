@@ -1,16 +1,15 @@
-div {
-  color: var(--contrast);
-  background-color: var(--bg-secondary);
-}
+/* div {
+  display: flex;
+  justify-content: center;
+} */
 
-.page-container {
+/* .page-container {
   min-height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px 50px;
-
-}
+} */
 
 a {
   font-weight: 500;
@@ -24,16 +23,11 @@ a {
 }
 
 h1 {
-  color: yellow;
+  color: rgb(66, 79, 225);
   font-size: 3.2em;
   line-height: 1.1;
 }
 
-.page-container {
-  min-height: calc(100vh - 75px);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 75px 50px;
-  font-size: x-large;
+#favicon{
+ 
 }

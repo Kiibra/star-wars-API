@@ -28,10 +28,10 @@ const StarshipPage = () => {
 
   return (  
     <main>
+      <h1 id="header">SHIP DETAILS</h1>
       <div className="starship-details">
-      <h1 id="header">STARSHIP DETAILS</h1>
-        <h2>Name: {starshipDetails.name}</h2>
-        <h3>Model: {starshipDetails.model}</h3>
+        <h3>Name: {starshipDetails.name}</h3>
+        <h4>Model: {starshipDetails.model}</h4>
         <h4>Crew: {starshipDetails.crew}</h4>
         <p>Passengers: {starshipDetails.passengers}</p>
       </div>

@@ -1,3 +1,32 @@
-.starship-card {
+.starship-list{
   display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-items: center;
+  margin: auto;
+  margin-top: 90px;
+}
+.starship-card{
+  display: flex;
+  height: 10vh;
+  width:28vh;
+  color: rgb(215, 230, 14);
+}
+
+
+.ship-card{
+  font-size: large;
+  background-color: rgb(70, 56, 39);
+  margin: 20px;
+  width: 29vh;
+}
+
+.inst{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin-top: 30px;
+  font-weight: 600;
+  color: rgb(20, 80, 200);
 }

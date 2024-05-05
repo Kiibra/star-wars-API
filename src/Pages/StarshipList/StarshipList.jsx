@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { getAllStarships } from "../../Services/sw-api"
 
+import './StarshipList.css'
 
 const StarshipList = () => {
   const [starshipList, setStarshipList] = useState([])
@@ -18,13 +19,15 @@ const StarshipList = () => {
   if(!starshipList.length) return <h1>Loading starships...</h1>
 
   return ( 
-    <main className="starship-list">
-      {/* <h1>{props.starshipList.name}</h1> */}
+    <main>
+      <h4 className="inst">Click on a ship to see it's details...🛸</h4> 
+      <div className="starship-list">
       {starshipList.map((starship, idx) =>
       <div className="starship-card" key={idx}>
-        <Link to={`/starships/${starship.url.replace("https://swapi.dev/api/starships/", "")}`}>{starship.name}</Link>
+        <Link className="ship-card" to={`/starships/${starship.url.replace("https://swapi.dev/api/starships/", "")}`}>{starship.name}</Link>
       </div>
       )}
+      </div>
     </main>
   )
 }
