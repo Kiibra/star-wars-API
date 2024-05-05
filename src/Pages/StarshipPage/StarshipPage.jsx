@@ -30,7 +30,7 @@ const StarshipPage = () => {
   return (  
     <main className="page-container">
       <h1 id="header">SHIP DETAILS</h1>
-      <div className="starship-details">
+      <div className="details">
         <h3>Name: {starshipDetails.name}</h3>
         <h4>Model: {starshipDetails.model}</h4>
         <h4>Crew: {starshipDetails.crew}</h4>

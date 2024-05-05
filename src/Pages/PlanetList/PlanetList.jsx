@@ -29,7 +29,7 @@ const PlanetList = () => {
       <div className="card-list">
       {planetList.map((planet, idx) => 
       <div className="card" key={idx}>
-      <Link className='item' to={`/planets/${planet.idx}`}>{planet.name}</Link>
+      <Link className='item' to={`/planets/${planet.url.replace("https://swapi.dev/api/planets/", "")}`}>{planet.name}</Link>
       </div>
       )}
       </div>
