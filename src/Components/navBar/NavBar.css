@@ -1,24 +1,30 @@
-.logo {
-  width: 70px;
-}
+
 nav {
-  background-color: var(--bg-primary);
   height: 75px;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding: 0 50px;
+  background: hsla(58, 89%, 51%, 1);
+
+background: radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1EA12", endColorstr="#E6136E", GradientType=1 );
+
 }
 
 nav > a {
 
   color: var(--contrast);
-  font-size: 32px;
+  font-size: 22px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-select {
-  font-size: 22px;
-  border-radius: 8px;
-  padding: 4px;
-}
