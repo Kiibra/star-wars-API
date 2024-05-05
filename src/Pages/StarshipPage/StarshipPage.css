@@ -1,15 +1,17 @@
+.page-container{
+  background-color: rgb(237, 235, 79);
+  height: 50vh;
+  width: 60vh;
+  margin: auto;
+}
+
 .starship-details{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(237, 235, 79);
-  height: 36vh;
-  width: 40vh;
-  margin: auto;
   margin-top: 40px;
   font-size: large;
-  
 }
 #header {
   display: flex;
@@ -20,4 +22,23 @@ h1{
   margin-top: 80px;
   font-size: large;
   font-weight: 500;
+  padding: 20px;
+}
+
+
+button{
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #3a4df3;
+  color: aliceblue;
+  width: 126px;
+  margin-top: 80px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #ec3a09;
 }
