@@ -23,7 +23,7 @@ const PlanetList = () => {
     fetchPlanetList()
   }, [])
 
-  if(!planetList.name) return <h1>Loading planet details...</h1> 
+  if(!planetList.length) return <h1>Loading planet details...</h1> 
 
   return (
     <main className='planets-list'>
