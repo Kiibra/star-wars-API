@@ -23,9 +23,11 @@ const PlanetList = () => {
     fetchPlanetList()
   }, [])
 
+  if(!planetList.name) return <h1>Loading planet details...</h1> 
+
   return (
     <main className='planets-list'>
-      <h2>Hii PLANETSSS</h2>
+            <h4 className="inst">Click on a planet to see it's details...🪐</h4> 
       <div className="card-list">
       {planetList.map((planet, idx) => 
       <div className="card" key={idx}>
