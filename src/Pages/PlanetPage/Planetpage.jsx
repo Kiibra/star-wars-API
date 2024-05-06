@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 
 //services
 import { getAPlanet } from '../../Services/sw-api'
+import { Link } from 'react-router-dom'
 
 //css
 import './PlanetPage.css'
@@ -32,6 +33,7 @@ const PlanetPage = () => {
       <p>Gravity: {planetDetails.gravity}</p>
       <p>Population: {planetDetails.population}</p>
       </div>
+      <Link className="back-btn" to="/planets"><button>Back To Planets</button></Link>
     </main>
   )
 }
