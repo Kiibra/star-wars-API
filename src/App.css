@@ -25,16 +25,26 @@ h1 {
     margin-top: 90px;
 }
 
-.card {
-  display: flex;
-  height: 10vh;
-  width:28vh;
-  color: rgb(215, 230, 14);
-}
-
 .item{
   font-size: large;
   background-color: rgb(70, 56, 39);
   margin: 20px;
   width: 29vh;
+}
+
+button{
+  border-radius: 12px;
+  padding: 8px;
+  background-color: #3a4df3;
+  color: aliceblue;
+  width: 126px;
+  margin-top: 80px;
+  margin-left: 20px;
+  cursor: pointer;
+  float: left;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #ec3a09;
 }

@@ -24,21 +24,3 @@ h1{
   font-weight: 500;
   padding: 20px;
 }
-
-
-button{
-  border-radius: 12px;
-  padding: 8px;
-  background-color: #3a4df3;
-  color: aliceblue;
-  width: 126px;
-  margin-top: 80px;
-  margin-left: 20px;
-  cursor: pointer;
-  float: left;
-  font-weight: 500;
-}
-
-button:hover {
-  background-color: #ec3a09;
-}

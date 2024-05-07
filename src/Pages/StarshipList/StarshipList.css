@@ -4,6 +4,13 @@
   align-items: center;
   font-size: large;
   margin-top: 30px;
-  font-weight: 600;
-  color: rgb(20, 80, 200);
+  font-weight: 800;
+  color: rgb(9, 82, 230);
+}
+
+.card-ship {
+  display: flex;
+  height: 10vh;
+  width:28vh;
+  color: rgb(191, 204, 10);
 }

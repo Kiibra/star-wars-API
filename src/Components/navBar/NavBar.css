@@ -9,16 +9,9 @@ nav {
   align-items: center;
   padding: 0 50px;
 
-  background: hsla(58, 89%, 51%, 1);
+  background: rgb(243, 241, 167);
 
-  background: radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
-
-  background: -moz-radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
-
-  background: -webkit-radial-gradient(circle, hsla(58, 89%, 51%, 1) 0%, hsla(334, 85%, 49%, 1) 43%, hsla(36, 91%, 50%, 1) 50%, hsla(165, 83%, 60%, 1) 100%);
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F1EA12", endColorstr="#E6136E", GradientType=1 );
-
+  background: radial-gradient(circle, rgb(239, 236, 145) 0%, rgba(246, 132, 132, 0.771) 43%, rgb(236, 231, 159) 50%, rgb(79, 99, 230) 100%);
 }
 
 nav > a {
@@ -31,5 +24,10 @@ nav > a {
 
 
 .nav-icon{
-  width: 120px;
+  width: 90px;
+  float: left;
 }
+
+/* Nav Icon image found here https://www.shutterstock.com/shutterstock/photos/2292009177/display_1500/stock-vector-high-quality-vector-illustration-with-drawn-baby-yoda-from-the-popular-series-based-on-star-wars-2292009177.jpg */
+
+/* utilized this website to removed background https://www.remove.bg/ */

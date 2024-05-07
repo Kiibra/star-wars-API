@@ -1,0 +1,9 @@
+.landing{
+  min-height: calc(100vh - 75px);
+  background-image: url(../../assets/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Image used found on this website https://www.vecteezy.com/video/24663695-3d-particle-background */

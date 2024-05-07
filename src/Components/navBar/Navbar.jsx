@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import NavIcon from '../../assets/starwars.png'
+import NavIcon from '../../assets/icon.png'
 
 // import reactLogo from '../../assets/react.svg'
 import './NavBar.css'

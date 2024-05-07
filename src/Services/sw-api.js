@@ -9,7 +9,7 @@ export async function getAllStarships(){
 
 export async function getStarship(idx){
   const res = await fetch(`${baseUrl}/starships/${idx}`)
-  console.log(res)
+  // console.log(res)
   return res.json()
 }
 
@@ -20,6 +20,7 @@ export async function getAllPlanets(){
 
 export async function getAPlanet(idx){
   const res = await fetch(`${baseUrl}/planets/${idx}`)
-  console.log(res)
+  // console.log(res)
   return res.json()
 }
+

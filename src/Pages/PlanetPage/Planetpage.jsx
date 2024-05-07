@@ -6,6 +6,9 @@ import { useParams } from 'react-router-dom'
 import { getAPlanet } from '../../Services/sw-api'
 import { Link } from 'react-router-dom'
 
+// component
+// import PlanetList from '../PlanetList/PlanetList'
+
 //css
 import './PlanetPage.css'
 
@@ -22,6 +25,7 @@ const PlanetPage = () => {
     //invoke
     fetchDetails()
   }, [idx])
+
   if(!planetDetails.name) return <h1>Loading ship details...</h1> 
 
   return (  
@@ -30,6 +34,7 @@ const PlanetPage = () => {
       <div className="details">
       <h3>Name: {planetDetails.name}</h3>
       <h4>Diameter: {planetDetails.diameter}</h4>
+      <p>Climate: {planetDetails.climate}</p>
       <p>Gravity: {planetDetails.gravity}</p>
       <p>Population: {planetDetails.population}</p>
       </div>

@@ -16,14 +16,14 @@ const StarshipList = () => {
     fetchStarshipList()
   })
 
-  if(!starshipList.length) return <h1>Loading starships...</h1>
+  // if(!starshipList.name) return <h1>Loading starships...</h1>
 
   return ( 
     <main>
       <h4 className="inst">Click on a ship to see it's details...🛸</h4> 
       <div className="card-list">
       {starshipList.map((starship, idx) =>
-      <div className="card" key={idx}>
+      <div className="card-ship" key={idx}>
         <Link className="item" to={`/starships/${starship.url.replace("https://swapi.dev/api/starships/", "")}`}>{starship.name}</Link>
       </div>
       )}

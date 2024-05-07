@@ -1,3 +1,20 @@
 .item{
-  background-color: rgb(39, 51, 54);
+  background-color: rgb(24, 49, 55);
 }
+
+.card {
+  display: flex;
+  height: 10vh;
+  width:28vh;
+  color: rgb(247, 124, 9);
+}
+
+body{
+  background-image: url("../../assets/bg2.png");
+  min-height: calc(100vh - 0px);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* bacckground image gotten from this website https://wallpapercave.com/star-wars-planets-wallpapers */
